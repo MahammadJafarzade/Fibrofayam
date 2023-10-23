@@ -1,0 +1,64 @@
+#landing{
+    background: url('../../Media/1665104704_1-amiel-club-p-resepshn-iz-kamnya-dizain-instagram-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size:cover; 
+}
+.landing-overlay{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  
+}
+.overlay-img {
+    margin: 60px;
+    height: 400px;
+    background-color: #ffffff;
+    opacity: 0.71;
+    filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+  }
+  @media screen and (max-width:568px) {
+    .overlay-img{
+      height:55vh;
+    }
+  }
+  .overlay-img img{
+    width: 200%;
+  }
+.overlay-description p{
+    color: #2d2d2d;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}  
+ @media screen and (max-width:992px) {
+  .overlay-img img{
+      width: 150%;
+  }
+}
+@media screen and (max-width:480px) {
+  .overlay-img{
+    height:40vh;
+  }
+  .overlay-img img{
+    width: 120%;
+}
+}

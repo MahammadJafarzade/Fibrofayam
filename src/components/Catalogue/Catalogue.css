@@ -1,0 +1,70 @@
+#catalogue{
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+.catalogue-cards{
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalogue-card{
+    padding: 5px;
+}
+.catalogue-card img{
+    width: 100%;
+}
+
+.card-img{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.card-img img{
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.06);
+}
+.catalogue-description{
+    text-align: center;
+}
+.catalogue-code h3{
+    color: #2d2d2d;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+}
+.catalogue-name p{
+    color: #2d2d2d;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.catalogue-title{
+    margin-bottom: 8px !important;
+
+}
+.next-page-btn{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next-page-btn button{
+    transition: all .4s ease-in-out;
+    border-radius: 14px;
+    padding: 10px 14px;
+    border: none;
+    color: #f9f9f9;
+    background-color: #2d2d2d;
+}
+.next-page-btn button:hover{
+    color: #2d2d2d;
+    background-color: #f9f9f9;
+    -webkit-box-shadow: 8px 11px 11px 1px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: 8px 11px 11px 1px rgba(34, 60, 80, 0.26);
+    box-shadow: 8px 11px 11px 1px rgba(34, 60, 80, 0.26);
+}

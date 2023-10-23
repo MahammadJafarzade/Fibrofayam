@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    padding: 40px 0;
+    background-color: #333333;
+}
+.footer{
+    text-align: center;
+}
+.footer-title h1{
+    color: #ffffff;
+    font-family: "Playfair Display SC", Sans-serif;
+    font-size: 61px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.footer-title p{
+    color: #a0a0a0;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+.footer-title span{
+    color: rgb(45, 45, 45);
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+}
+.footer-email h2{
+    color: #ffffff;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.phone-numbers ul{
+    font-size: 16px;
+    padding-left: 0px !important;
+}
+.phone-numbers ul li{
+    margin: 4px 0;
+    color: #ffffff;
+    list-style-type: none;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.footer-icons ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 0px !important;
+    align-items: center;
+}
+.footer-icons ul li{
+    list-style-type: none;
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.footer-icons ul li a{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #474747;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:992px) {
+    .footer-title h1{
+        font-size: 30px;
+    }
+}

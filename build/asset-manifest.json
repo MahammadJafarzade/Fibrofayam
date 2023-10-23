@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3385d693.css",
+    "main.js": "/static/js/main.11026043.js",
+    "static/media/FIBROFAYAM_Kataloq-2023-albomnaya1-1304x2048.png": "/static/media/FIBROFAYAM_Kataloq-2023-albomnaya1-1304x2048.efca90b0c05f3e040b82.png",
+    "static/media/Screenshot_7.png": "/static/media/Screenshot_7.4bd681b31a5b3823459b.png",
+    "static/media/Screenshot_6.png": "/static/media/Screenshot_6.53731d3a4fba2cc441d6.png",
+    "static/media/Screenshot_9.png": "/static/media/Screenshot_9.ef26691f00d97d903d7e.png",
+    "static/media/kitchen.jpg": "/static/media/kitchen.326c0df0fcbac5d70ca4.jpg",
+    "static/media/1 (7).jpeg": "/static/media/1 (7).744f4d536db2aa0e319c.jpeg",
+    "static/media/1665104704_1-amiel-club-p-resepshn-iz-kamnya-dizain-instagram-1.jpg": "/static/media/1665104704_1-amiel-club-p-resepshn-iz-kamnya-dizain-instagram-1.5134bfa21d7439869860.jpg",
+    "static/media/FIBROFAYAM_Kataloq-2023-albomnaya.png": "/static/media/FIBROFAYAM_Kataloq-2023-albomnaya.654997cef9082eeb2ea7.png",
+    "index.html": "/index.html",
+    "main.3385d693.css.map": "/static/css/main.3385d693.css.map",
+    "main.11026043.js.map": "/static/js/main.11026043.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3385d693.css",
+    "static/js/main.11026043.js"
+  ]
+}

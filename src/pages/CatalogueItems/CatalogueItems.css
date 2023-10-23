@@ -1,0 +1,156 @@
+#catalogueItems{
+  padding:40px 0 ;
+}
+.items-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.item{
+    padding: 13px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.item-img img{
+  width: 100%;
+  min-height: 250px;
+}
+.item-description{
+  padding-top: 7px;
+}
+.item:hover{
+  -webkit-box-shadow: 8px 11px 11px 1px rgba(34, 60, 80, 0.26);
+  -moz-box-shadow: 8px 11px 11px 1px rgba(34, 60, 80, 0.26);
+  box-shadow: 8px 11px 11px 1px rgba(34, 60, 80, 0.26);
+}
+.wrapper {
+    max-width: 1350px;
+    padding: 0px 60px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+  } 
+.wrapper img {
+    cursor: pointer;
+  }
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+/* Modal Content */
+.modal-content {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+/* Modal Carousel */
+.modal-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.modal-carousel img {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* Modal Navigation Buttons */
+.modal-btns button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+/* Optional: Style for specific navigation buttons */
+.modal-btns button:first-child {
+  margin-right: 10px;
+}
+.modal-btns button:last-child {
+  margin-left: 10px;
+}
+.modal-btns button:hover {
+  color: #007bff; /* Change the color as per your design */
+}
+.modal-carousel .item-img {
+  width: 100%;
+}
+.left-btn{
+  position: absolute;
+  top: 46%;
+  left: 12%;
+}
+.close-btn{
+  top: 13px;
+  right: 35px;
+}
+.modal-btns svg{
+color: #fff;
+}
+.right-btn{
+  position: absolute;
+  top: 46%;
+  right: 5%;
+}
+@media screen and (max-width:992px) {
+  .left-btn{
+    top: 46%;
+    left: 2%;
+  }
+  .right-btn{
+    top: 46%;
+    right: 2%;
+  }
+  .modal-btns svg{
+    color: white;
+    }
+    .item-img img{
+      width: 100%;
+      min-height: 300px;
+    }
+}
+@media screen and (max-width:768px) {
+  .item-img img{
+    width: 100%;
+    min-height: 350px;
+  }
+}
+@media screen and (max-width:568px) {
+  .left-btn{
+    top: 46%;
+    left: 0%;
+  }
+  .right-btn{
+    top: 46%;
+    right: 0%;
+  }
+  .modal-carousel img{
+    height: 50%;
+  }
+  .child-img img{
+    min-width: 50% !important;
+    max-height: 40% !important;
+  }
+}

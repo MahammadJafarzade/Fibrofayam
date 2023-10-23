@@ -1,0 +1,11 @@
+.centered-image{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax-container{
+    position: relative;
+    width: 95vh;
+    height: 90vh;
+}
